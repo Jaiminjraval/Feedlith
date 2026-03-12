@@ -20,7 +20,7 @@ export default function Sidebar({
           <Hexagon className="w-6 h-6 text-white" />
         </div>
         <span className="font-extrabold text-2xl tracking-tight text-white">
-          Block<span className="text-indigo-400">Feed</span>
+          Feed<span className="text-indigo-400">lith</span>
         </span>
       </div>
 
@@ -52,7 +52,7 @@ export default function Sidebar({
               }`}
             >
               <Layers className="w-5 h-5" />
-              <span className="font-medium">Ledger Explorer</span>
+              <span className="font-medium">Student List</span>
             </button>
             <button
               onClick={() => setCurrentView("analytics")}
@@ -63,7 +63,7 @@ export default function Sidebar({
               }`}
             >
               <TrendingUp className="w-5 h-5" />
-              <span className="font-medium">Smart Analytics</span>
+              <span className="font-medium">Faculty List</span>
             </button>
           </>
         )}
